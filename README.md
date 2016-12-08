@@ -32,3 +32,11 @@
 - z-index scale
 - reused components should recieve special styling through a wrapper div within a parent
 - don't use scss `extend`. Use `mixins` [instead](https://www.sitepoint.com/avoid-sass-extend/).
+
+## Influences
+[React and Immutable](https://www.youtube.com/watch?v=I7IdS-PbEgI&feature=youtu.be) 
+
+[The power of simplicity](https://www.youtube.com/watch?v=NdSD07U5uBs)
+
+[Async Programming in ES7](https://www.youtube.com/watch?v=lil4YCCXRYc&t=2s&index=16&list=LLyC_vdEIR5HdKQy6p4Nh9nw)
+
