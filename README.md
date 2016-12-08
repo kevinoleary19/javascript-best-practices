@@ -2,8 +2,7 @@
 
 - [Immutability](https://facebook.github.io/immutable-js/)
 - [Composition over Inheritence](https://facebook.github.io/react/docs/composition-vs-inheritance.html)
-- Unidirectional data flow
-- [single source of truth](http://redux.js.org/docs/introduction/Motivation.html)
+- Unidirectional data flow / [single source of truth](http://redux.js.org/docs/introduction/Motivation.html)
 - smaller component files (large components with multiple render methods conflates business logic and makes it hard to map imports / logic to corresponding view layers)
 - globals are a spawn of satan
 - use attributes instead of static getters. getters are good for hiding side effects and business logic, but unneccesary for returning strings. services should be close to back end apis; exposing explicit methods
