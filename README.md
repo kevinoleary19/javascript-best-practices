@@ -29,7 +29,7 @@
 
 ### Tooling
 
-- Webpack (Tree shaking, code splitting, base64 image conversion, extensive plugins, community support, Hot module reloading)
+- Webpack (Tree shaking, code splitting, base64 image conversion, extensive plugins, community support, Hot module reloading, css class scoping emulates shadow dom)
 - eslint
 - yarn for dependency management and intelligent module versioning
 
