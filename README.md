@@ -13,8 +13,6 @@
 - globals are a spawn of satan
 - use attributes instead of static getters. getters are good for hiding side effects and business logic, but unneccesary for returning strings. services should be close to back end apis; exposing explicit methods
 - Static Type Checking
-- Hot reloading
-- yarn
 
 ### Data retrieval
 - fetch (downside is that they are not cancellable)
@@ -28,6 +26,12 @@
 - async await
 - observables (rxjs as reliable implementation)
 - decorators (as of right now there is no standard and they are in an early stage, so it's risky to use. HOCs are comparable and easier to test)
+
+### Tooling
+
+- Webpack (Tree shaking, code splitting, base64 image conversion, extensive plugins, community support, Hot module reloading)
+- eslint
+- yarn for dependency management and intelligent module versioning
 
 ### CSS
 - z-index scale
